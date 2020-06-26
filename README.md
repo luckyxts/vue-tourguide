@@ -1,4 +1,4 @@
-<p>vue-tourGuide.io is a Vue plug-in for web Wizard.<p>
+<p>vue-tourGuide is a Vue plug-in for web Wizard.<p>
 
 ###### Demo
 - <a href="http://metinseylan.com/vuesocketio/" target="_blank">Demo</a>
