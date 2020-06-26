@@ -1,6 +1,6 @@
 {
   "name": "vue-tourguide",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "this is a Vue mask wizard component",
   "main": "dist/tourguide.js",
   "scripts": {
