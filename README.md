@@ -34,17 +34,19 @@ this.tourConfigList.push( {
      elements: [this.$refs.light],
      axisType: "x",
      desc: "this is a title",
-     maxWidth: 200
+     maxWidth: 200，
+     id: "this is a title"
 })
 ```
 
 **Parameters**|**Type's**|**Default**|**Required**|**Description**
 -----|-----|-----|-----|-----
-elements|dom|`null`|Required|Elements that need to be highlighted may need to be passed in the nexttick
+elements|dom|`null`|Required|Elements that need to be highlighted may need to be passed in the nextTick
 displayPosition|String|`left-down`|Optional|describe the location of the text display
 axisType|String|`y`|Optional|how to show the arrow
 desc|String|`null`|Required|wizard text
 maxWidth|String |`null`|Optional|the maximum length of the description text.if it exceeds the length,it willwrap
+id|String |`null`|Optional|used to bind key values to reduce repeated rendering
 
 #####  event
 
