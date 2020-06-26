@@ -46,3 +46,9 @@ axisType|String|`y`|Optional|how to show the arrow
 desc|String|`null`|Required|wizard text
 maxWidth|String |`null`|Optional|the maximum length of the description text.if it exceeds the length,it willwrap
 
+#####  event
+
+**Parameters**|**Description**
+-----|-----|-----|-----|-----
+closeTour|close wizard callback
+
