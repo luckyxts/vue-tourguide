@@ -49,6 +49,6 @@ maxWidth|String |`null`|Optional|the maximum length of the description text.if i
 #####  event
 
 **Parameters**|**Description**
------|-----|-----|-----|-----
+-----|-----
 closeTour|close wizard callback
 
