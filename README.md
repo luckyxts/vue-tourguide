@@ -1,7 +1,7 @@
 <p>vue-tourGuide is a Vue plug-in for web Wizard.<p>
 
 ###### Demo
-- <a href="http://metinseylan.com/vuesocketio/" target="_blank">Demo</a>
+- <a href="https://luckyxts.github.io/vue-tourGuide/example/dist/" target="_blank">Demo</a>
 <p>
 
 
