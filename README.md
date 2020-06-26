@@ -1,4 +1,4 @@
-<p>vue-tourGuide is a Vue plug-in for web Wizard.<p>
+<p>vue-tourGuide is a Vue plugin for web wizard.<p>
 
 ###### Demo
 - <a href="https://luckyxts.github.io/vue-tourGuide/example/dist/" target="_blank">Demo</a>
