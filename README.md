@@ -15,7 +15,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import vueTourguide from 'vue-tourguide'
 
-Vue.use(vuetourguide)
+Vue.use(vueTourguide)
 
 new Vue({
     router,
