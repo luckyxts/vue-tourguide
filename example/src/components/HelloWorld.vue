@@ -61,13 +61,13 @@
                     displayPosition: "left-top",
                     elements: [this.$refs.light],
                     axisType: "x",
-                    desc: "这是核心文档"
+                    desc: "This is a core document"
                 })
                 this.tourConfigList.push( {
                     displayPosition: "left-down",
                     elements: [this.$refs.light2],
                     axisType: "y",
-                    desc: "标题"
+                    desc: "title"
                 })
             })
         }
