@@ -28,7 +28,7 @@
             <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
             <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
         </ul>
-        <button @click="showMethods">show tour</button>
+        <button @click="showMethods" ref="showTour">show tour</button>
         <tourGuide :tourConfigList="tourConfigList" :show="show" @closeTour="closeTour"></tourGuide>
     </div>
 </template>
@@ -61,12 +61,19 @@
                     elements: [this.$refs.light],
                     axisType: "x",
                     desc: "This is a core document"
-                })
+                });
+
                 this.tourConfigList.push( {
-                    displayPosition: "left-down",
+                    displayPosition: "right-top",
                     elements: [this.$refs.light2],
                     axisType: "y",
                     desc: "title"
+                });
+                this.tourConfigList.push( {
+                    displayPosition: "right-down",
+                    elements: [this.$refs.showTour],
+                    axisType: "y",
+                    desc: "open wizard"
                 })
             })
         }
