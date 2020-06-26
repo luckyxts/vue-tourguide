@@ -41,7 +41,7 @@ this.tourConfigList.push( {
 
 **Parameters**|**Type's**|**Default**|**Required**|**Description**
 -----|-----|-----|-----|-----
-elements|dom|`null`|Required|Elements that need to be highlighted may need to be passed in the nextTick
+elements|Array<dom>|`null`|Required|Elements that need to be highlighted may need to be passed in the nextTick
 displayPosition|String|`left-down`|Optional|describe the location of the text display
 axisType|String|`y`|Optional|how to show the arrow
 desc|String|`null`|Required|wizard text
