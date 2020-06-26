@@ -13,7 +13,7 @@ npm install vue-tourguide --save
 ``` javascript
 import Vue from 'vue'
 import App from './App.vue'
-import vuetourguide from 'vue-tourguide'
+import vueTourguide from 'vue-tourguide'
 
 Vue.use(vuetourguide)
 
