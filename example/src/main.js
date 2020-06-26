@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import tourGuide from './../../dist/tourGuide'
+import tourguide from './../../dist/tourguide'
 
 Vue.config.productionTip = false;
 
-Vue.use(tourGuide);
+Vue.use(tourguide);
 
 new Vue({
   render: h => h(App),

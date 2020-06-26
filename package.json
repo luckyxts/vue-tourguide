@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luckyxts/vue-tourGuide.git"
+    "url": "git+https://github.com/luckyxts/vue-tourguide.git"
   },
   "author": "xts",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luckyxts/vue-tourGuide/issues"
+    "url": "https://github.com/luckyxts/vue-tourguide/issues"
   },
-  "homepage": "https://github.com/luckyxts/vue-tourGuide#readme",
+  "homepage": "https://github.com/luckyxts/vue-tourguide#readme",
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/preset-env": "^7.10.3",

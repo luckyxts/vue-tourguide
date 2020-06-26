@@ -29,7 +29,7 @@
             <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
         </ul>
         <button @click="showMethods" ref="showTour">show tour</button>
-        <tourGuide :tourConfigList="tourConfigList" :show="show" @closeTour="closeTour"></tourGuide>
+        <tourguide :tourConfigList="tourConfigList" :show="show" @closeTour="closeTour"></tourguide>
     </div>
 </template>
 

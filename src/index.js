@@ -1,11 +1,11 @@
 /**
  * Created by Administrator on 2020/6/21.
  */
-import tourGuide from './components/tourGuide.vue'
+import tourguide from './components/tourguide.vue'
 
 const install = function(Vue){
     if (install.installed) return;
-    Vue.component("tourGuide", tourGuide);
+    Vue.component("tourguide", tourguide);
 };
 const API = {
     install,

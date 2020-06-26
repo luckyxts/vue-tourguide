@@ -1,21 +1,21 @@
-<p>vue-tourGuide is a Vue plugin for web wizard.<p>
+<p>vue-tourguide is a Vue plugin for web wizard.<p>
 
 ###### Demo
-- <a href="https://luckyxts.github.io/vue-tourGuide/example/dist/" target="_blank">Demo</a>
+- <a href="https://luckyxts.github.io/vue-tourguide/example/dist/" target="_blank">Demo</a>
 <p>
 
 
 #### 🚀 Installation
 ``` bash
-npm install vue-tourGuide --save
+npm install vue-tourguide --save
 ```
 ##### Introducing plugins
 ``` javascript
 import Vue from 'vue'
 import App from './App.vue'
-import vueTourGuide from 'vue-tourGuide'
+import vuetourguide from 'vue-tourguide'
 
-Vue.use(vueTourGuide)
+Vue.use(vuetourguide)
 
 new Vue({
     router,
@@ -25,7 +25,7 @@ new Vue({
 ```
 ##### Using in .vue
 ```
-<tourGuide :tourConfigList="tourConfigList" :show="show" @closeTour="closeTour"></tourGuide>
+<tourguide :tourConfigList="tourConfigList" :show="show" @closeTour="closeTour"></tourguide>
 ```
 ##### tourConfigList detail
 ```
