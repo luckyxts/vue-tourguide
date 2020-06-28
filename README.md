@@ -42,8 +42,8 @@ this.tourConfigList.push( {
 **Parameters**|**Type's**|**Default**|**Required**|**Description**
 -----|-----|-----|-----|-----
 elements|Array<dom>|`null`|Required|Elements that need to be highlighted may need to be passed in the nextTick
-displayPosition|String|`left-down`|Optional|describe the location of the text display
-axisType|String|`y`|Optional|how to show the arrow
+displayPosition|String|`left-down`|Optional|describe the location of the text display,include "left-down","left-top","right-down","right-top"
+axisType|String|`y`|Optional|how to show the arrow,include "x","y"
 desc|String|`null`|Required|wizard text
 maxWidth|String |`null`|Optional|the maximum length of the description text.if it exceeds the length,it willwrap
 id|String |`null`|Optional|used to bind key values to reduce repeated rendering
