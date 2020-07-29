@@ -44,6 +44,7 @@
                 // 竖向展示
                 displayPosition: [`left-top`, `right-top`, `left-down`, `right-down`],
                 descConfig: [],
+                timer: null,
             };
         },
         methods: {
@@ -72,11 +73,11 @@
                         elements[0], displayPosition, axisType, leftType, topType
                     );
                     this.configList.push({
-                        descX: `${descX}px`,
-                        descY: `${descY}px`,
+                        descX: `${descX - scrollX}px`,
+                        descY: `${descY - scrollY}px`,
                         desc: desc.desc,
-                        imgX: `${imgX}px`,
-                        imgY: `${imgY}px`,
+                        imgX: `${imgX - scrollX}px`,
+                        imgY: `${imgY - scrollY}px`,
                         sortNum: desc.sortNum,
                         descMaxWidth: (maxWidth ? `${maxWidth}px` : `auto`),
                         rotateClass,
@@ -180,12 +181,17 @@
                 });
             },
             resizeFn(){
-                setTimeout(() => {
+                if (this.timer ){
+                    clearTimeout(this.timer);
+                    this.timer = null;
+                }
+                this.timer = setTimeout(() => {
                     this.initTaskTour(this.descConfig, true);
                 });
             },
             addBindEvent(){
                 addEventListener(`resize`, this.resizeFn);
+                addEventListener(`scroll`, this.resizeFn, true);
             },
             // 去除自定义绑定事件
             removeBindEvent(){
@@ -223,8 +229,8 @@
 
 <style scoped>
     .tour {
-        position: absolute;
-        overflow: auto;
+        position: fixed;
+        overflow: hidden;
         top: 0;
         right: 0;
         bottom: 0;
